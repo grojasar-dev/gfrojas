@@ -32,7 +32,3 @@ convert_rdata_to_csv <- function(rdata_file, output_dir = "./") {
     cat("Data frame", df_name, "convertido a", csv_file, "\n")
   }
 }
-
-install.packages("devtools")
-library(devtools)
-devtools::document()
