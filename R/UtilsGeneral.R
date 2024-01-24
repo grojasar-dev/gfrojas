@@ -4,6 +4,7 @@
 #'
 #' @param rdata_file File in format RData
 #' @param output_dir Destination of files converted
+#' @export
 #' @examples
 #' convert_rdata_to_csv("/home/user/path_file_rdata", "/home/user/folder_files_csv/")
 convert_rdata_to_csv <- function(rdata_file, output_dir = "./") {
